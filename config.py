@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7381737633:AAFPOtM-Qy92K1iC66QXQpdIyuWaNn0TB0c")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7948085870:AAHtUddn25FSdcpCKuZKq5awt-cQQl6EVeQ")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "22606849"))
@@ -32,12 +32,12 @@ PORT = os.environ.get("PORT", "8010")
 
 #Database
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://meow:meow@meow.a6bo1.mongodb.net/?retryWrites=true&w=majority&appName=meow")
-DB_NAME = os.environ.get("DATABASE_NAME", "Taneshima")
+DB_NAME = os.environ.get("DATABASE_NAME", "RinKaga")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002034112983"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002330286014"))
-FSC3 = int(os.environ.get("FSC3", "-1002469583852"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002343928827"))
+FSC3 = int(os.environ.get("FSC3", "-1002400794493"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
